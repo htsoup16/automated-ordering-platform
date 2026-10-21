@@ -1,0 +1,13 @@
+Name,Time,Address,Order Type,Orders,Cost,Location
+Miriam,Wed Apr 24 14:16:12 2024,,Pickup,2 6,19.0,Mesa
+Kyle,Wed Apr 24 14:17:20 2024,"123 N. Pine Ln, Phoenix, AZ 85225",Delivery,5 6,17.0,Phoenix 3
+Layla,Wed Apr 24 14:17:56 2024,,Pickup,2 8,14.0,Tolleson
+Miriam,Thu Apr 25 12:55:57 2024,,Pickup,1 2,18.0,Phoenix 4
+Invalid,Fri Apr 26 09:19:20 2024,,Pickup,2 3,20.0,Phoenix 3
+Invalid,Fri Apr 26 10:31:43 2024,,Pickup,5 6,17.0,Mesa
+Miriam,Fri Apr 26 10:37:53 2024,,Pickup,2 3,20.0,Mesa
+M,Fri Apr 26 10:46:44 2024,,Pickup,2 3,20.0,Mesa
+Invalid,Fri Apr 26 10:55:03 2024,,Pickup,1 3,18.0,Tempe
+Invalid,Fri Apr 26 10:55:03 2024,,Pickup,,0.0,Tempe
+Invalid,Fri Apr 26 10:57:11 2024,,Pickup,1 2,18.0,Mesa
+Invalid,Fri Apr 26 11:06:57 2024,,Pickup,2 3 7,25.0,Mesa
