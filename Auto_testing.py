@@ -26,5 +26,5 @@ class TestOrder:
     def test_number(self):
         print('Test Case 4: test first name entered with numbers')
         p4 = Order('1234', time.ctime(), '123 Any St', '2', 'Mesa')
-        assert ('1234', time.ctime(), '123 Any St', '2', 'Mesa') == \
+        assert ('Invalid', time.ctime(), '123 Any St', '2', 'Mesa') == \
                (p4.name, p4.time, p4.address, p4.order_type, p4.location)

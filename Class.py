@@ -11,7 +11,11 @@ items = {'1': 8.00, '2': 10.00, '3': 10.00, '4': 7.00,
 class Order:
     def __init__(self, name, time, address, order_type, location, orders=None):
         """Initialize Order initial values"""
-        self.name = name
+        if not str(name).replace(" ", "").isalpha():
+            self.name = 'Invalid'
+        else:
+            self.name = name
+
         self.time = time
         self.address = address
         self.order_type = order_type
